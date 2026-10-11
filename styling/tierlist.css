@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+nav {
+  background-color: #191a1f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 20px;
+  border-bottom: 1px solid #c03f49;
+}
+nav h2 {
+  color: #f74a5a;
+}
+#curentPage {
+  color: #eeee50;
+}
+.box-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.box-navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* ini style untuk table */
+.box-table-tierlist {
+  margin-top: 60px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+th,
+td {
+  border: 1px solid white;
+  text-align: center;
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+nav {
+    background-color: #191a1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20px;
+    border-bottom: 1px solid #c03f49;
+}
+nav h2 {
+    color: #f74a5a;
+}
+#curentPage {
+    color: #eeee50;
+}
+.box-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.box-navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* ini buat input searcj */
+
+.box-inputSearch {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-inputSearch input {
+    border: 2px solid #ffff00;
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-inputCheckbox {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    max-width: 500px; 
+    margin: 10px auto; /*kalo ditanya auto ini buat apa jawabnya buat ngeratain margin kanan kiri */
+    padding: 20px;
+    background-color: #1a1a1a; 
+    border-radius: 8px;
+}
+
+.box-inputSearch button {
+    background-color: #ebeb4c; 
+    color: #333; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    cursor: pointer; 
+}
+
+/* ini style buat list film nya */
+
+#box-listFilm {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-cardFilm {
+    background-color: #1d2029;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    
+}
+.box-cardFilm img {
+    width: 140px;
+    
+}
+
+
+
