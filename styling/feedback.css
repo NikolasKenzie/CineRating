@@ -73,6 +73,16 @@ nav h2 {
   border-radius: 8px;
   padding: 6px;
 }
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.radio-group label {
+  font-size: 15px;
+}
+
 .submitButton {
   background-color: #ffc107;
   color: #000000;

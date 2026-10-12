@@ -26,6 +26,28 @@
 
           <label for="message">message</label>
           <textarea name="message" id="textarea-message"></textarea>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="public"
+              name="visibility"
+              value="public"
+              required
+            />
+            <label for="public"
+              >Allow my review to be visible to the public</label
+            >
+          </div>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="private"
+              name="visibility"
+              value="private"
+              required
+            />
+            <label for="private">Make my review private</label>
+          </div>
 
           <button type="submit" class="submitButton">Submit</button>
         </form>
