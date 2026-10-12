@@ -60,7 +60,7 @@ nav h2 {
   color: rgb(0, 0, 0);
 }
 .box-inputSearch {
-  margin-top: 40px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -71,6 +71,7 @@ nav h2 {
   width: 240px;
   height: 35px;
   border-radius: 10px;
+  padding: 5px;
 }
 .box-inputCheckbox {
   display: flex;
@@ -79,7 +80,7 @@ nav h2 {
   align-items: center;
   gap: 10px;
   max-width: 500px;
-  margin: 10px auto; /*kalo ditanya auto ini buat apa jawabnya buat ngeratain margin kanan kiri */
+  margin: 30px auto; /*kalo ditanya auto ini buat apa jawabnya buat ngeratain margin kanan kiri */
   padding: 20px;
   background-color: #1a1a1a;
   border-radius: 8px;
@@ -117,4 +118,25 @@ nav h2 {
 }
 .box-cardFilm img {
   width: 140px;
+}
+
+#footer {
+  padding: 20px;
+}
+
+
+#footer h3 {
+  text-align: center;
+}
+
+.box-iconSosmed {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.box-iconSosmed img {
+  width: 70px;
 }
