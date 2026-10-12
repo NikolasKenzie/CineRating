@@ -22,6 +22,7 @@ nav h2 {
 }
 #curentPage {
   color: #eeee50;
+  text-decoration: underline;
 }
 .box-navigation {
   display: flex;
