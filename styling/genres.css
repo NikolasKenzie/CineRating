@@ -38,3 +38,18 @@ nav h2 {
     color: white;
     font-size: 16px;
 }
+
+
+#box-genres {
+    width: 65%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#action, #comedy, #horror, #scifi, #documentary, #fantasy {
+    background-color: #1d2029;
+    padding: 10px;
+    border-radius: 8px;
+}
